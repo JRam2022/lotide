@@ -23,7 +23,7 @@ const countLetters = function(str) {
       results[str[i]] = 1;
     }
   }
-  console.log(results);
+  return results;
 };
 
-countLetters('jasonjasonrrrr');
+console.log(countLetters('jasonjasonrrrr'));
