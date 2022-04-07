@@ -33,7 +33,7 @@ const assertArraysEqual = function(equalArrays) {
 };
 
 
-const words = ["ground", "control", "to", "major", "tome"];
+/*const words = ["ground", "control", "to", "major", "tome"];
 
 const results1 = map(words, word => word[0]);
 assertArraysEqual(eqArrays(results1, ['g', 'c', 't', 'm', 't']));
@@ -44,4 +44,5 @@ assertArraysEqual(eqArrays(results2, ['r', 'o', 'o', 'a', 'o']));
 const results3 = map(words, word => word[2]);
 //console.log(results3)
 assertArraysEqual(eqArrays(results3, ['o', 'n', undefined, 'j', 'm']));
+*/
 
