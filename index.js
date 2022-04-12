@@ -11,6 +11,8 @@ const findKey = require('./findKey');
 const assertObjectsEqual = require('./assertObjectsEqual');
 const assertEqual = require('./assertEqual');
 const assertArraysEqual = require('./assertArraysEqual')
+const takeUntil = require('./takeUntil');
+const without = require('./without');
 
 
 
@@ -27,6 +29,7 @@ module.exports = {
   findKey: findKey,
   assertObjectsEqual: assertObjectsEqual,
   assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual
-
+  assertArraysEqual: assertArraysEqual,
+  takeUntil: takeUntil,
+  without: without
 };
