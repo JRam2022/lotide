@@ -20,4 +20,4 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-console.log(letterPositions('my name is jason'));
+module.exports = letterPositions;
